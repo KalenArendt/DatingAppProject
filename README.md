@@ -129,6 +129,8 @@ cd ./Services
 dotnet run
 ```
 
+Note: for our current version of the .NET SDK, `dotnet watch` doesn't use the launch profile so we need to use `dotnet run`
+
 ### To Trust Certificate / Webpage
 
 ```shell
@@ -159,4 +161,3 @@ dotnet ef migrations add InitialCreate -o Data/Migrations
 ```shell
 dotnet ef database update
 ```
-
