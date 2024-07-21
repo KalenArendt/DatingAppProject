@@ -156,4 +156,7 @@ dotnet tool install --global dotnet-ef --version 8.0.7
 dotnet ef migrations add InitialCreate -o Data/Migrations
 ```
 
+```shell
+dotnet ef database update
+```
 
