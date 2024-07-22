@@ -7,7 +7,7 @@ namespace Services.Controllers;
 
 
 [ApiController]
-[Route("[controller]")]
+[Route("services/[controller]")]
 public class UsersController(DataContext context) : ControllerBase
 {
 	[HttpGet] // /api/users

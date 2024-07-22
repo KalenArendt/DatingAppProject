@@ -104,7 +104,7 @@ Download .NET:
   https://aka.ms/dotnet/download
 ```
 
-## Setting up the Project
+## Setting up the Front End
 
 ### Creating the Solution
 
@@ -160,4 +160,24 @@ dotnet ef migrations add InitialCreate -o Data/Migrations
 
 ```shell
 dotnet ef database update
+```
+
+## Setting up the Backend
+
+### Install Boostrap for Angular
+
+NPM packages to install:
+
+- [Angular Bootstrap](<https://valor-software.com/ngx-bootstrap/#/>)
+- [Bootstrap](<https://getbootstrap.com/>)
+- [Font Awesome](<https://fontawesome.com/>)
+
+```shell
+npm install ngx-bootstrap@12 bootstrap font-awesome
+```
+
+### Install [mkcert](<https://www.npmjs.com/package/mkcert>) to create Self-Signed Certificate
+
+```shell
+npm install -g mkcert
 ```
